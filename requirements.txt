@@ -1,0 +1,5 @@
+Flask==1.1.1
+pandas
+wikipedia
+google-cloud-language
+pylint
