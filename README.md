@@ -36,22 +36,28 @@ Google is going to ask in what area you would like to set your app. In my case I
 Updating the service will take some minutes the first time we deploy the app. <br>
 
 #### 6 We need to enable certain services in order to run the script `main.py` and allow the communication between Github and Cloud Build
+
 >Enable API Services
 >![Enable API Services](/Images/Slide2.JPG 'Enable API Services')<br>
+
 >Enable Cloud Natural Language API
 >![Enable Cloud Natural Language API](/Images/Slide3.JPG 'Enable Cloud Natural Language API')<br>
+
 >Enable App Engine Admin API
 >![Enable App Engine Admin API](/Images/Slide5.JPG 'Enable App Engine Admin API')<br>
+
 >Enable Cloud Build AP
 >![Enable Cloud Build AP](/Images/Slide4.JPG 'Enable Cloud Build AP')<br>
+
 >Grant permissions to Cloud Build to connect with App Engine
 >![Grant permissions to Cloud Build to connect with App Engine](/Images/Slide6.JPG 'Grant permissions to Cloud Build to connect with App Engine')<br>
 
 #### 7 Connect your repository with Cloud Build
-Linkng GitHub repo to Cloud Build
-![Linkng GitHub repo to Cloud Build](/Images/Slide7.JPG 'Linkng GitHub repo to Cloud Build')<br>
-Example of linked repository
-![Example of linked repository](/Images/Slide8.JPG 'Example of linked repository')<br>
+>Linkng GitHub repo to Cloud Build
+>![Linkng GitHub repo to Cloud Build](/Images/Slide7.JPG 'Linkng GitHub repo to Cloud Build')<br>
+
+>Example of linked repository
+>![Example of linked repository](/Images/Slide8.JPG 'Example of linked repository')<br>
 
 #### 8 Open your app
 `gcloud app browse`
