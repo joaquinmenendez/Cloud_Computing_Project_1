@@ -51,9 +51,11 @@ Updating the service will take some minutes the first time we deploy the app. <b
 In this case we will see a welcome message in our home page 'Hello World' <br>
 ![Initial home page](/Images/Slide9.JPG)
 
+#### 9 We make some changes in our app
+
 To check that our repository is correctly linked with our App I would made some modifications in this welcome message and I will push this changes in order to trigger a new deploy of my app.
 I open `main.py` in a cloned repository my local machine and I modify the welcome message. After I am ok with the changes I commit and push `main.py` to the repository. <br>
-![Pushing changes made locally on main.py](/Images/Slide10.JPG)
+![Pushing changes made locally on main.py](/Images/Slide10.JPG "Pushing changes made locally on main.py")
 
 Cloud Build is going to detect this change and is going to deploy an updated version of my app. <br>
-![New homepage](/Images/Slide11.JPG)
+![Updated homepage](/Images/Slide11.JPG "Updated homepage")
