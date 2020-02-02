@@ -20,7 +20,7 @@ In this case we are using this exact repository.
 We are going to run a simple Flask application. Check `main.py` in order to see the different functions available in this app.<br>
 > git clone git@github.com:joaquinmenendez/Cloud_Computing_Project_1.git
 
-/* I am assuming that you have already set a SSH Key in your GitHub account. If not you can do it following this [steps](https://docs.cloudera.com/documentation/director/latest/topics/director_gcp_config_tools.html) 
+*I am assuming that you have already set a SSH Key in your GitHub account. If not you can do it following this [steps](https://docs.cloudera.com/documentation/director/latest/topics/director_gcp_config_tools.html)* 
 
 #### 3 Set the current directory into the repo
 > cd Cloud_Computing_Project_1
