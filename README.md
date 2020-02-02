@@ -15,10 +15,12 @@ For a short explanation of this project please watch the demo video on this [res
 #### 1 Start creating a new project on Google Cloud Platform <br> 
 ![Create project](/Images/Slide1.JPG)
 
-#### 2  Activate Cloud Shell and clone this repository.<br>
+#### 2  Activate Cloud Shell and clone you repository.<br>
+In this case we are using this exact repository. 
+We are going to run a simple Flask application. Check `main.py` in order to see the different functions available in this app.<br>
 > git clone git@github.com:joaquinmenendez/Cloud_Computing_Project_1.git
 
-* I am assuming that you have already set a SSH Key in your GitHub account. If not you can do it following this [steps](https://docs.cloudera.com/documentation/director/latest/topics/director_gcp_config_tools.html) 
+/* I am assuming that you have already set a SSH Key in your GitHub account. If not you can do it following this [steps](https://docs.cloudera.com/documentation/director/latest/topics/director_gcp_config_tools.html) 
 
 #### 3 Set the current directory into the repo
 > cd Cloud_Computing_Project_1
@@ -41,17 +43,17 @@ Updating the service will take some minutes the first time we deploy the app. <b
 ![Enable Cloud Build AP](/Images/Slide4.JPG 'Enable Cloud Build AP')<br>
 ![Grant permissions to Cloud Build to connect with App Engine](/Images/Slide6.JPG 'Grant permissions to Cloud Build to connect with App Engine')<br>
 
-#### 7 We connect our repository with Cloud Build
+#### 7 Connect your repository with Cloud Build
 ![Linkng GitHub repo to Cloud Build](/Images/Slide7.JPG 'Linkng GitHub repo to Cloud Build')<br>
 ![Example of linked repository](/Images/Slide8.JPG 'Example of linked repository')<br>
 
-#### 8 We open our app
+#### 8 Open your app
 `gcloud app browse`
 
 In this case we will see a welcome message in our home page 'Hello World' <br>
 ![Initial home page](/Images/Slide9.JPG)
 
-#### 9 We make some changes in our app
+#### 9 Make some changes in our app
 
 To check that our repository is correctly linked with our App I would made some modifications in this welcome message and I will push this changes in order to trigger a new deploy of my app.
 I open `main.py` in a cloned repository my local machine and I modify the welcome message. After I am ok with the changes I commit and push `main.py` to the repository. <br>
@@ -59,3 +61,6 @@ I open `main.py` in a cloned repository my local machine and I modify the welcom
 
 Cloud Build is going to detect this change and is going to deploy an updated version of my app. <br>
 ![Updated homepage](/Images/Slide11.JPG "Updated homepage")
+.caption[
+Updated homepage
+]
