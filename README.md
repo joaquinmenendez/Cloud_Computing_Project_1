@@ -9,3 +9,13 @@
 - Configure Cloud Build to Deploy Changes on build
 
 ---
+
+git clone git@github.com:joaquinmenendez/Cloud_Computing_Project_1.git
+rm *.mp4
+gcloud app create
+12 area
+cd Cloud_Computing_Project_1
+gcloud app deploy (updating the service will take some minutes the first time)
+gcloud app browse
+
+![Create project](/Images/Slide1.jpg)
