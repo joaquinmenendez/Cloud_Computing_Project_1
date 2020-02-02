@@ -18,4 +18,4 @@ cd Cloud_Computing_Project_1
 gcloud app deploy (updating the service will take some minutes the first time)
 gcloud app browse
 
-![Create project](/Images/Slide1.jpg)
+![Create project](/Images/Slide1.JPG)
