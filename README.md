@@ -1,5 +1,4 @@
 # Continuous Delivery of Flask Application on GCP
-### Repository from the course 'Data Analysis in the Cloud at Scale (ECE.590.24)
 
 ## Project 1
 #### Objectives
