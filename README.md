@@ -1,15 +1,20 @@
 # Continuous Delivery of Flask Application on GCP
 
 ## Project 1
-#### Objectives
 
+For a short explanation of this project please watch the demo video on this [respository](./Demo_Continuous_Delivery_of_Flask_Application_on_GCP.mp4) or in [Youtube](https://youtu.be/8gUEr2N6Flg)
+
+**Other projects**<br>
+- [Using Google Cloud Services to develop a Serverless Data Engineering Pipeline](https://github.com/joaquinmenendez/Cloud_Computing_Project_4)
+- [Submitting a ML and Descriptive analysis to a Spark cluster on GCP](https://github.com/joaquinmenendez/Cloud_Computing_Project_3)<br>
+- [Docker containerization](https://github.com/joaquinmenendez/Cloud_Computing_Project_2)<br>
+
+
+#### What are we going to do
 - Create a Google App Engine application using GCP Cloud Shell environment
 - Push source code to Github
 - Configure Cloud Build to Deploy Changes on build
-
 ---
-
-For a short explanation of this project please watch the demo video on this [respository](./Demo_Continuous_Delivery_of_Flask_Application_on_GCP.mp4) or in [Youtube](https://youtu.be/8gUEr2N6Flg)
 
 #### 1 Start creating a new project on Google Cloud Platform <br> 
 ![Create project](/Images/Slide1.JPG)
