@@ -6,7 +6,7 @@ For a short explanation of this project please watch the demo video on this [res
 
 **Other projects**<br>
 - [Using Google Cloud Functinos to develop a Serverless Data Engineering Pipeline](https://github.com/joaquinmenendez/Cloud_Computing_Project_4)
-- [Submitting a ML and Descriptive analysis to a Spark cluster on GCP](https://github.com/joaquinmenendez/Cloud_Computing_Project_3)<br>
+- [Submitting a Pyspark job to a Spark cluster on GCP](https://github.com/joaquinmenendez/Cloud_Computing_Project_3)<br>
 - [Docker containerization](https://github.com/joaquinmenendez/Cloud_Computing_Project_2)<br>
 
 
